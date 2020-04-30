@@ -1,0 +1,99 @@
+{
+  "inputContentType": "CSV",
+  "outputContentType": "CSV",
+  "input": [
+    {
+      "name": "State",
+      "type": "STRING"
+    },
+    {
+      "name": "Account Length",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Area Code",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Phone",
+      "type": "STRING"
+    },
+    {
+      "name": "Intl Plan",
+      "type": "STRING"
+    },
+    {
+      "name": "VMail Plan",
+      "type": "STRING"
+    },
+    {
+      "name": "VMail Message",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Day Mins",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Day Calls",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Day Charge",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Eve Mins",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Eve Calls",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Eve Charge",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Night Mins",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Night Calls",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Night Charge",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Intl Mins",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "Intl Calls",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Intl Charge",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "CustServ Calls",
+      "type": "INTEGER"
+    }
+],
+  "output": [
+    {
+      "name": "Churn",
+      "type": "STRING"
+    }
+  ],
+  "description": "description",
+  "version": "v1",
+  "instanceCount": 1,
+  "instanceTypes": [
+    "ml.c4.xlarge"
+  ],
+  "defaultInstanceType": "ml.c4.xlarge"
+}
