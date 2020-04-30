@@ -43,7 +43,7 @@ feature_columns_names = [
     'Intl Mins',
     'Intl Calls',
     'Intl Charge',
-    'CustServ Calls'] # after being dried
+    'CustServ Calls'] 
 
 label_column = 'Churn?'
 
@@ -69,7 +69,7 @@ feature_columns_dtype = {
     'Intl Charge' :  np.float64,
     'CustServ Calls' :  np.int64}
 
-label_column_dtype = {'Churn?': str} # 
+label_column_dtype = {'Churn?': str}  
 
 def merge_two_dicts(x, y):
     z = x.copy()   # start with x's keys and values
