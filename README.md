@@ -13,7 +13,7 @@ We use an example of churn where we predict likelihood of customers leaving a mo
 
 To build and train the model, first [create an Amazon SageMaker notebook instance](https://docs.aws.amazon.com/sagemaker/latest/dg/gs-setup-working-env.html). Next, load this repo onto the newly created notebook instance, then open the jupyter notebook contained in the quicksight-sagemaker-integration folder and follow the instructions in the notebook.
 
-The [blog post](https://aws.amazon.com/blogs/TBA/) associated with this repo is located here.
+The [blog post](https://aws.amazon.com/blogs/machine-learning/making-machine-learning-predictions-in-amazon-quicksight-and-amazon-sagemaker/) associated with this repo is located here.
 
 
 ## License
